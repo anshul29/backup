@@ -1,0 +1,18 @@
+{
+	"redisDB": {
+		"errorHandler": 2
+		, "userModel": 3
+		, "calendarModel": 4
+		, "keyModel": 5
+		, "kue": 6
+	},
+	"salesforce": {
+		"fellowRecordTypeId": "01290000000cQxYAAU"
+		, "staffRecordTypeId": "01290000000cKuLAAU"
+		, "contactObject": "Contact"
+		, "leaveObject": "Leave__c"
+		, "leaveMax": "Total_Earned_Leaves_Credited__c"
+		, "leaveCount": "Total_Earned_Leaves_Debited__c"
+		, "leaveAvailable": "Earned_Leaves_Available__c"
+	}
+}

@@ -1,0 +1,95 @@
+{
+	"development": {
+		"db": {
+			"protocol": ""
+			, "host": ""
+			, "port": ""
+			, "database": ""
+			, "username": ""
+			, "password": ""
+		}
+		, "tfinPort": ""
+		, "encryptionKey": ""
+		, "salesforce": {
+            "loginUrl": ""
+            , "username": ""
+            , "password": ""
+        }
+        , "google": {
+            "refresh_token": ""
+            , "orgCalendarId": ""
+        }
+        , "authHeader": {
+            "apiKey": ""
+            , "clientId": ""
+        }
+		, "elasticSearch": {
+			"salt": ""
+		}
+		, "cors": {
+			"originWhitelist": []
+		}
+	}
+	, "staging": {
+		"db": {
+			"protocol": ""
+			, "host": ""
+			, "port": ""
+			, "database": ""
+			, "username": ""
+			, "password": ""
+		}
+		, "tfinPort": ""
+		, "encryptionKey": ""
+		, "salesforce": {
+            "loginUrl": ""
+            , "username": ""
+            , "password": ""
+        }
+        , "google": {
+            "refresh_token": ""
+            , "orgCalendarId": ""
+        }
+        , "authHeader": {
+            "apiKey": ""
+            , "clientId": ""
+        }
+		, "elasticSearch": {
+			"salt": ""
+		}
+		, "cors": {
+			"originWhitelist": []
+		}
+	}
+	, "production": {
+		"db": {
+			"protocol": ""
+			, "host": ""
+			, "port": ""
+			, "database": ""
+			, "username": ""
+			, "password": ""
+		}
+		, "tfinPort": ""
+		, "encryptionKey": ""
+		, "salesforce": {
+            "loginUrl": ""
+            , "username": ""
+            , "password": ""
+        }
+        , "google": {
+            "refresh_token": ""
+            , "orgCalendarId": ""
+        }
+        , "authHeader": {
+            "apiKey": ""
+            , "clientId": ""
+        }
+		, "elasticSearch": {
+			"salt": ""
+		}
+		, "cors": {
+			"originWhitelist": []
+		}
+	}
+}

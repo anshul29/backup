@@ -1,0 +1,30 @@
+{
+  "name": "tfin-client",
+  "description": "A js client for the tfin service",
+  "main": "./tfin",
+  "author": {
+    "name": "Technology - Teach For India"
+  },
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "bugs": {
+    "url": ""
+  },
+  "licenses": [
+    {
+      "type": "",
+      "url": ""
+    }
+  ],
+  "dependencies": {
+    "lodash": "^4.6.1"
+  },
+  "devDependencies": {},
+  "scripts": {},
+  "readme": "",
+  "readmeFilename": "",
+  "homepage": ""
+}

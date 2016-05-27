@@ -1,0 +1,17 @@
+{
+    "name"             : "tfin",
+    "script"           : "server.js",
+    "instances"        : 0,
+    "merge_logs"       : true,
+    "exec_interpreter" : "node",
+    "exec_mode"        : "cluster",
+    "env": {
+        "NODE_ENV": "staging"
+    },
+    "env_staging" : {
+        "NODE_ENV" : "staging"
+    },
+    "env_production" : {
+        "NODE_ENV" : "production"
+    }
+}

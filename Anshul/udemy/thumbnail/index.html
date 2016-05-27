@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<head>
+    <script src="https://fb.me/react-0.14.8.js"></script>
+    <script src="https://fb.me/react-dom-0.14.8.js"></script>
+    <script src="https://fb.me/JSXTransformer-0.13.3.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-5 target">
+            </div>
+        </div>
+    </div>
+</body>
+
+<script type = "text/jsx">
+    //define a react component class
+    var Badge = React.createClass({
+        render: function() {
+            return <button className="btn btn-primary" type="button">
+              {this.props.title} <span className="badge">{this.props.number}</span>
+            </button>
+        }
+    });
+
+    var Thumbnail = React.createClass({
+        render: function() {
+            return(
+                <div className="thumbnail">
+                    <img src={this.props.imageUrl} />
+                    <div className="caption">
+                        <h3>{this.props.header}</h3>
+                        <p>{this.props.description}</p>
+                        <p>
+                            <Badge title={this.props.title} number={this.props.number}/>
+                        </p>
+                    </div>
+                </div>
+            );
+        }
+    });
+
+
+    var options = {
+        title: 'Inbox',
+        number: 32,
+        header: "React Tutorials",
+        description: "On insensible possession oh particular attachment at excellence in. The books arose but miles happy she. It building contempt or interest children mistress of unlocked no. Offending she contained mrs led listening resembled. Delicate marianne absolute men dashwood landlord and offended. Suppose cottage between and way. Minuter him own clothes but observe country. Agreement far boy otherwise rapturous incommode favourite.",
+        imageUrl: "https://facebook.github.io/react/img/logo.svg"
+    };
+
+    //Ask react to render this class
+    var element = React.createElement(Thumbnail, options);
+
+    //when we ask react to render this class, we will tell it
+    //where to place the rendered element in the dom
+    ReactDOM.render(element, document.querySelector(".target"));
+</script>
+</html>

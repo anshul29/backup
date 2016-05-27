@@ -1,0 +1,329 @@
+#home-page .container{
+  width: 100%;
+  z-index: 1000000;
+  padding-left: 0px;
+  padding-right: 0px;
+  vertical-align: top;
+  background: url('sass/background.jpg') no-repeat center center fixed;
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+}
+#login-page {
+  color: #EEE;
+}
+
+#home-page .main-header {
+  position: fixed;
+  width: 100%;
+  top: 0px;
+  min-height: 50px;
+  padding: 10px;
+  text-transform: uppercase;
+  font-size: 2em;
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+#login-page .main-header {
+  top: 0px;
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.org-name {
+  font-weight: 900;
+  color: #EEE;
+}
+
+.sub-heading {
+  font-weight: 100;
+}
+
+#home-page .main-header a:focus,
+#home-page .main-header a:hover{
+  color: #2aa8bd;
+}
+
+// Quote division
+#login-page .div-quote {
+  position: fixed;
+  top: 10%;
+  font-size: 2em;
+  font-style: italic;
+  margin-top: 30px;
+}
+
+#login-page .div-quote .author {
+  font-style: normal;
+}
+
+//login division
+#login-page .div-login {
+  width: 100%;
+  top: 40%;
+  position: fixed;
+  padding: 5px;
+  margin-top: -50px;
+}
+
+#login-page .btn{
+  padding-left: 33px;
+  padding-right: 33px;
+  color: #FFF;
+  font-weight: 100;
+  text-shadow: none;
+  border: 2px solid #2aa8bd;
+  background-color: #2aa8bd;
+  background-image: none;
+  border-radius: 50px;
+}
+
+#login-page .btn:focus,
+#login-page .btn:hover
+{
+  color: #2aa8bd;
+  border: 2px solid #FFF;
+  background-color: #FFF;
+  background-image: none;
+  border-radius: 50px;
+}
+
+#login-page .div-login i{
+  color:#FFF;
+  margin-right: 24px;
+  width:18px;
+  height: 18px;
+}
+
+#login-page .btn:focus i,
+#login-page .btn:hover i{
+    color: #2aa8bd;
+}
+
+#login-page .div-down {
+  position: fixed;
+  width: 100%;
+  // left: 50%;
+  // margin-left: -50px;
+  // height: 50px;
+  // width: 50px;
+  top: 45%;
+  padding: 5px;
+}
+#timeline-page .div-down {
+  position: fixed;
+  display: inline-block;
+  width: 100%;
+  // left: 50%;
+  // margin-left: -50px;
+  // height: 50px;
+  // width: 50px;
+  top: 50%;
+  padding: 5px;
+}
+
+#timeline-page .main-header {
+   //to include top arrow
+  top: 55%;
+  background-color: rgba(255, 255, 255, 0.0);
+}
+
+#timeline-page .timeline-frame {
+  // margin-top: 60px; //to include top arrow
+  // bottom: 0;
+  position: fixed;
+  width: 100%;
+  height: 100% auto;
+  top: 60%;
+  bottom: 0;
+
+}
+
+#timeline-page iframe {
+  height: 100%;
+  min-height: 400px;
+}
+
+#login-page .div-down i,
+#timeline-page .div-down i,
+#login-page .div-down i:focus,
+#timeline-page .div-down i:focus {
+  font-size: 3em;
+  color: #AAA;
+}
+
+#login-page .div-down i:hover,
+#login-page .div-down i:active {
+  color: #EEE;
+}
+
+#timeline-page .div-down i:hover,
+#timeline-page .div-down i:active {
+  color: #222930;
+}
+
+
+
+// for mobile view
+@media only screen and (max-width: 350px) {
+    #home-page .main-header {
+      font-size: 2em;
+      min-height: 40px;
+      padding: 10px;
+    }
+    #login-page .div-quote {
+      font-size: 1em;
+    }
+    #login-page .div-login {
+      // width: 100%;
+      // top: 40%;
+      // position: fixed;
+      // padding: 5px;
+      // margin-top: -50px;
+      transform: scale(0.8, 0.8);
+    }
+    #timeline-page .timeline-frame{
+      top: 58%;
+      // display: block;
+      // position: relative;
+    }
+    #timeline-page iframe {
+      // height: 50%;
+    }
+    #timeline-page .main-header {
+      font-size: 1.5em;
+      top: 53%
+    }
+    #home-page .div-down i {
+      font-size: 1.5em;
+    }
+}
+
+
+
+
+
+//home page
+// #home-page {
+//   width: 100%;
+//   // min-height: 100%;
+//   // height: auto !important;
+//   position: fixed;
+//   // top: 0;
+//   // left: 0;
+//   // margin: 0 auto;
+//   color: #CCC;
+//   background: url('sass/background.png') no-repeat center center fixed;
+//  -webkit-background-size: cover;
+//  -moz-background-size: cover;
+//  -o-background-size: cover;
+//  background-size: cover;
+// }
+//
+// #home-page .container {
+//   padding: 0;
+// }
+//
+// //login page
+// #login-page {
+//   color: #CCC;
+// }
+//
+// .main-header {
+//   min-height: 50px;
+//   padding: 10px;
+//   text-transform: uppercase;
+//   font-size: 2em;
+//   background-color: rgba(255, 255, 255, 0.2);
+// }
+//
+// .org-name {
+//   font-weight: 900;
+//   color: #EEE;
+// }
+//
+// .sub-heading {
+//   font-weight: 100;
+// }
+//
+// .main-header a:focus,
+// .main-header a:hover{
+//   color: #2aa8bd;
+// }
+//
+// //Quote division
+// #login-page .div-quote {
+//   font-size: 2em;
+//   font-style: italic;
+//   margin-top: 100px;
+// }
+//
+// #login-page .div-quote .author {
+//   font-style: normal;
+// }
+//
+// //login division
+// #login-page .div-login {
+//   text-align: center;
+//   top: 48%;
+//   position: fixed;
+//   margin-top: -50px;
+// }
+//
+// #login-page .btn{
+//   padding-left: 33px;
+//   padding-right: 33px;
+//   color: #FFF;
+//   font-weight: 100;
+//   text-shadow: none;
+//   border: 2px solid #2aa8bd;
+//   background-color: #2aa8bd;
+//   background-image: none;
+//   border-radius: 50px;
+// }
+//
+// #login-page .btn:focus,
+// #login-page .btn:hover
+// {
+//   color: #2aa8bd;
+//   border: 2px solid #FFF;
+//   background-color: #FFF;
+//   background-image: none;
+//   border-radius: 50px;
+// }
+//
+// #login-page i{
+//   color:#FFF;
+//   margin-right: 24px;
+//   width:18px;
+//   height: 18px;
+// }
+//
+// #login-page .btn:focus i,
+// #login-page .btn:hover i{
+//     color: #2aa8bd;
+// }
+//
+// //timeline
+// #timeline-page {
+//   color: green;
+//   overflow: scroll;
+//   overflow-y: visible;
+// }
+//
+// //footer
+// #footer-div {
+//   display: block;
+//   max-height: 50px !important;
+// }
+// .main-footer {
+//   display: block;
+//   margin: 0;
+//   margin-right: 20px;
+//   padding: 0;
+//   bottom: 0;
+//   text-align: center;
+//   color: #999;
+//   background-color: transparent;
+//   border: none;
+// }

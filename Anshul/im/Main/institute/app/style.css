@@ -1,0 +1,83 @@
+body {
+  font-family: monospace;
+  color: #FFFFFF;
+  font-weight: 100;
+  background-image: url("sass/background.png");
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-color: #454545;
+  height: 50px; }
+
+.navbar {
+  font-weight: 900;
+  text-transform: uppercase;
+  background-image: none;
+  border: none;
+  background-color: rgba(255, 255, 255, 0.1); }
+
+.navbar .navbar-brand {
+  color: #FFF;
+  font-size: 2em;
+  text-shadow: none; }
+
+.navbar .navbar-brand:focus,
+.navbar .navbar-brand:hover {
+  color: #6BF; }
+
+.sub-heading {
+  font-weight: 100; }
+
+.quote {
+  color: #DDD;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  font-size: 1.52em;
+  font-style: italic;
+  font-weight: 100; }
+
+.quote .author {
+  font-weight: 500;
+  font-style: normal; }
+
+.login {
+  vertical-align: middle;
+  height: 44px;
+  padding: 8px; }
+
+.btn {
+  padding-left: 33px;
+  padding-right: 33px;
+  margin-top: 100px;
+  color: #EEE;
+  font-weight: 100;
+  text-shadow: none;
+  border: 2px solid #EEE;
+  background-color: transparent;
+  background-image: none;
+  border-radius: 50px; }
+
+.btn:focus,
+.btn:hover {
+  color: #FFF;
+  border: 2px solid rgba(220, 0, 0, 0);
+  background-color: #6BF;
+  background-image: none;
+  border-radius: 50px; }
+
+i {
+  color: #6BF;
+  margin-right: 24px;
+  width: 18px;
+  height: 18px; }
+
+.btn:focus i,
+.btn:hover i {
+  color: #FFF; }
+
+.footer {
+  color: #999;
+  font-size: 1em;
+  bottom: 10px;
+  position: fixed; }

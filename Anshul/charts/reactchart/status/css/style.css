@@ -1,0 +1,14 @@
+p{
+    text-align: justify;
+}
+.row{
+    text-align: center;
+}
+.progress {
+    border-radius: 10px;
+    position: relative;
+    float: right;
+}
+.remaining-value {
+    color: #AAA
+}

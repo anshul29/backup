@@ -1,0 +1,29 @@
+{
+	"redisDB": {
+		"errorHandler": 2,
+		"userModel": 3,
+		"calendarModel": 4,
+		"keyModel": 5,
+		"kue": 6
+	},
+	"user": {
+		"apiAccessTokenLength": 300,
+		"apiRefreshTokenLength": 280,
+		"apiAccessTokenName": "teachPIAccessToken",
+		"apiRefreshTokenName": "teachPIRefreshToken"
+	},
+	"salesforce": {
+		"fellowRecordTypeId": "01290000000cQxYAAU",
+		"staffRecordTypeId": "01290000000cKuLAAU",
+		"corporationRecordTypeId": "01290000000bKN1",
+		"universityRecordTypeId": "01290000000be3OAAQ",
+		"accountObject": "Account",
+		"contactObject": "Contact",
+		"contactObjectCustom": "Contact__c",
+		"experienceObject": "Experience__c",
+		"leaveObject": "Leave__c",
+		"leaveMax": "Total_Earned_Leaves_Credited__c",
+		"leaveCount": "Total_Earned_Leaves_Debited__c",
+		"leaveAvailable": "Earned_Leaves_Available__c"
+	}
+}

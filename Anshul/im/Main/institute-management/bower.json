@@ -1,0 +1,21 @@
+{
+  "name": "institute",
+  "authors": [
+    "teach for india"
+  ],
+  "description": "institute management",
+  "main": "app/index.html",
+  "moduleType": [
+    "es6"
+  ],
+  "license": "UNLICENSED",
+  "homepage": "teachforindia.org",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

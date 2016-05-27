@@ -1,0 +1,27 @@
+body{
+	font-size: 1.6em;
+	font-family: Helvetica;
+	min-height: 100%;
+}
+a {  
+}
+h1, h2, h3{
+	font-family: a;
+}
+.absolute{
+	position: absolute;
+	top: 10%; left: 0; right: 0;
+	width: 100%;
+	margin: 0; padding: 0;
+	text-align: center; text-justify: distribute;
+	z-index: 11;
+	font-size: 6vw;
+	color: rgba(255,255,255,1);
+}
+.message{
+	font-size: 1.8em;
+}
+.hero-image{
+	margin: auto;
+	width: 100%
+}

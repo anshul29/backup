@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<head>
+    <script src="https://fb.me/react-0.14.8.js"></script>
+    <script src="https://fb.me/react-dom-0.14.8.js"></script>
+    <script src="https://fb.me/JSXTransformer-0.13.3.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+</head>
+<body>
+    <div id="demo">
+    </div>
+</body>
+
+<script type = "text/jsx">
+    //define a react component class
+    var Badge = React.createClass({
+        render: function() {
+
+            return <button className="btn btn-primary" type="button">
+              {this.props.title} <span className="badge">{this.props.number}</span>
+            </button>
+        }
+    });
+
+    var options = {
+        title: 'Inbox',
+        number: 32
+    }
+
+    //Ask react to render this class
+    var element = React.createElement(Badge, options);
+
+    //when we ask react to render this class, we will tell it
+    //where to place the rendered element in the dom
+    ReactDOM.render(element, document.getElementById("demo"));
+</script>
+</html>

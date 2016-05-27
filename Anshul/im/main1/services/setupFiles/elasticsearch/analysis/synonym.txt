@@ -1,0 +1,4 @@
+mumbai, bombay, bombai
+chennai, madras
+bangalore, bengaluru
+dilli, delhi, new delhi

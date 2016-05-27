@@ -1,0 +1,23 @@
+.comp{
+    padding: 10px;
+    margin: 10px;
+    float: left;
+    text-align: center;
+}
+
+.comp1{
+    color: #FFF;
+    font-family: 'Helvetica Neue';
+    padding: 10px;
+    margin: 10px;
+    float: left;
+    text-align: center;
+    background-color: #013;
+    border-radius: 10px;
+}
+h3{
+    font-weight: lighter;
+}
+#canvas1{
+    right: 0;
+}

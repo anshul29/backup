@@ -1,0 +1,5 @@
+node_modules
+variables.json
+/app/components
+/logs
+/ecosystem.json

@@ -1,0 +1,23 @@
+{
+	"development": {
+		"google": {
+			"clientId": "712119106205-emhvi7pjqqrpq07ibqssqh2plqgf9qa6.apps.googleusercontent.com",
+			"clientSecret": "YYWP3JBIUE6CNuKlht7uFwvt",
+			"redirectUri": "http://localhost:8080/goauthcallback"
+		},
+		"tfin": {
+			"clientId": "712119106205-emhvi7pjqqrpq07ibqssqh2plqgf9qa6.apps.googleusercontent.com",
+			"apiKey": "OAI@JCQ?$U!vXMvC"
+		},
+		"session": {
+			"sessionKey": "sessionId"
+			, "sessionSecret": "secret"
+		}
+	},
+	"staging": {
+
+	},
+	"production": {
+
+	}
+}

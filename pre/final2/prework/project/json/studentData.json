@@ -1,0 +1,116 @@
+{
+  "name": "Amrita",
+  "gender": "Female",
+  "grade": "3rd Standard",
+  "interventionYears": 2,
+  "instructionalHours": 28,
+  "absentDays": 4,
+  "parentInteraction": 40,
+  "currentYear": 2015,
+  "achievements": [
+    "Started writing Blog",
+    "Won first prize in Class quiz"
+  ],
+  "academics": {
+    "sub1": {
+      "title": "Maths",
+      "data": [
+        {
+          "label": "2013 BOY",
+          "data": 45
+        },
+        {
+          "label": "2013 EOY",
+          "data": 57
+        },
+        {
+          "label": "2014 BOY",
+          "data": 54
+        },
+        {
+          "label": "2014 EOY",
+          "data": 65
+        },
+        {
+          "label": "2015 BOY",
+          "data": 50
+        },
+        {
+          "label": "2015 MY",
+          "data": 72
+        }
+      ]
+    },
+    "sub2": {
+      "title": "RC",
+      "data": [
+        {
+          "label": "2013 BOY",
+          "data": 1.5
+        },
+        {
+          "label": "2013 EOY",
+          "data": 2.5
+        },
+        {
+          "label": "2014 BOY",
+          "data": 1
+        },
+        {
+          "label": "2014 EOY",
+          "data": 3.5
+        },
+        {
+          "label": "2015 BOY",
+          "data": 4
+        },
+        {
+          "label": "2015 MY",
+          "data": 5
+        }
+      ]
+    },
+    "sub3": {
+      "title": "Writing",
+      "data": [
+        {
+          "label": "2013 BOY",
+          "data": 1.2
+        },
+        {
+          "label": "2013 EOY",
+          "data": 1.4
+        },
+        {
+          "label": "2014 BOY",
+          "data": 1.7
+        },
+        {
+          "label": "2014 EOY",
+          "data": 2.3
+        },
+        {
+          "label": "2015 BOY",
+          "data": 2.3
+        },
+        {
+          "label": "2015 MY",
+          "data": 2.7
+        }
+      ]
+    },
+    "sub4": {
+      "title": "S&L",
+      "data": [
+        {
+          "label": "BOY",
+          "data": 1.25
+        },
+        {
+          "label": "EOY",
+          "data": 2.75
+        }
+      ]
+    }
+  }
+}

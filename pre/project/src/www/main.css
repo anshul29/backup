@@ -1,0 +1,145 @@
+html {
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  /*font-size: 13px;*/
+  /*line-height: 20px;*/
+  background-color: #F0F2F5 !important;
+}
+
+/* end of top card*/
+.top-card {
+  font-size: 12px ;
+  background-color: #FFF;
+  margin-bottom: 20px;
+}
+
+/*.top-card .avtar {
+   height: 30px !important;
+   width: 30px !important;
+}*/
+
+.top-card .sub-text {
+  position: absolute;
+  color: #999;
+  left: 60%;
+}
+
+.top-card hr {
+  border-color: #CCC
+  border-width: 2px;
+  margin: 0;
+  padding-bottom: 10px;
+}
+
+.student-card .top-hr {
+  width: 100%;
+  left: 0;
+  position: relative;
+  margin: 0;
+  top: 0;
+  padding-bottom: 10px;
+}
+
+.student-card hr {
+  border-color: #CCC;
+  position: relative;
+  width: 90%;
+  left: 5%;
+  margin: 0;
+  top: 10px;
+}
+
+.student-card-head {
+  /*background-color: #00a152;*/
+  background-color: #2aacc1;
+  color: #FFF;
+}
+
+.green-bg {
+  background-color: #e9f6f8;
+  /*background-color: #f0fdf6;
+  /*background-color: #d2fae6;*/
+}
+
+.right-text {
+  float: right;
+}
+
+.sub-heading {
+  font-size: 16px !important;
+  margin-bottom: -16px;
+}
+
+.student-name {
+  color: #FFF;
+  font-size: 18px !important;
+  margin-bottom: 5px;
+}
+
+.name-sub-text {
+    color: #F0F0F0;
+}
+
+.student-card .sub-text {
+  color: #666;
+}
+/*
+.list-sub-item {
+  margin-left: 18% !important;
+}
+
+.list-sub-item .sub-text {
+
+}*/
+/* end of top card*/
+
+/*student card start */
+.gender {
+  position: relative;
+  display: flex;
+}
+
+.ach-icon {
+  display: inline;
+  position: absolute;
+  height: 17px ;
+  width: 17px ;
+  background-color: #2aacc1;
+  border-radius: 100%;
+  margin-right: 0px;
+}
+
+.ach-icon i{
+  color: #fff;
+  position: absolute;
+  font-size: 10px;
+  margin-top: 4px;
+  margin-left: 4px;
+}
+
+.padding-left {
+  padding-left: 30px;
+}
+
+.float-right {
+  /*padding-right: 10%;*/
+  float: right;
+}
+
+.student-sub-div {
+
+}
+/*student card end */
+
+.aca-title {
+  background-color: #a9dde6;
+}
+
+.chart canvas{
+  padding: 5px;
+  max-height: 300px;
+  max-width: 582px;
+  font-size: 10px;
+}

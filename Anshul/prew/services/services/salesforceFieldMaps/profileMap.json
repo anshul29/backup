@@ -1,0 +1,10 @@
+{
+	"Id": "salesforceId",
+	"RecordTypeId": "",
+	"HR_Manager__c": "hrManager",
+	"Manager__c": "",
+	"Location__c": "location",
+	"Placement_City__c": "location",
+	"FirstName": "firstName",
+	"LastName": "lastName"
+}
